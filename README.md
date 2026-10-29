@@ -35,6 +35,65 @@ The following technologies are part of my learning roadmap and will be added to 
 | SQL Learning Exercises | Practical exercises covering SQL syntax, data manipulation, filtering, sorting, and database queries. | SQL, MySQL |
 | Database Design | Database design exercises focusing on tables, relationships, constraints, and normalization. | SQL, MySQL |
 
+## 📁 Project Structure
+
+The repository is organised into folders to separate complete projects, SQL practice exercises, and database design activities.
+
+```text
+SQL-Projects/
+│
+├── Main/
+│   └── Student-Management-System/
+│       ├── README.md
+│       ├── ERD/
+│       │   └── student-management-system-erd.png
+│       ├── Database-Design/
+│       │   ├── business-rules.md
+│       │   ├── entities-and-attributes.md
+│       │   └── normalization.md
+│       ├── SQL/
+│       │   ├── 01-create-database.sql
+│       │   ├── 02-create-tables.sql
+│       │   ├── 03-constraints.sql
+│       │   ├── 04-insert-sample-data.sql
+│       │   ├── 05-select-queries.sql
+│       │   ├── 06-update-delete.sql
+│       │   ├── 07-joins.sql
+│       │   └── 08-views.sql
+│       └── Documentation/
+│           └── database-documentation.md
+│
+├── SQL-Fundamentals/
+│   ├── README.md
+│   ├── DDL/
+│   ├── DML/
+│   ├── DQL/
+│   ├── DCL/
+│   └── TCL/
+│
+├── Database-Design-Exercises/
+│   ├── README.md
+│   ├── ERD-Exercises/
+│   └── Normalization-Exercises/
+│
+└── README.md
+```
+
+### 📂 Folder Descriptions
+
+| Folder | Description |
+|---|---|
+| `Main/` | Contains the main database projects developed for practical learning and portfolio purposes. |
+| `Student-Management-System/` | A database project designed to manage students, departments, courses, lecturers, enrollments, assessments, and results. |
+| `ERD/` | Contains the Entity-Relationship Diagram (ERD) for the database. |
+| `Database-Design/` | Contains business rules, entity and attribute definitions, and normalization documentation. |
+| `SQL/` | Contains SQL scripts for database creation, table definitions, constraints, sample data, queries, joins, and views. |
+| `Documentation/` | Contains additional documentation explaining the database design and implementation. |
+| `SQL-Fundamentals/` | Contains SQL exercises organised by command category, including DDL, DML, DQL, DCL, and TCL. |
+| `Database-Design-Exercises/` | Contains practice exercises covering ERDs, relationships, and database normalization. |
+
+> **Note:** The structure above represents the intended organisation of the repository. Folder and file names should be updated to match the actual repository contents as the project develops.
+
 ## 🎯 Learning Goals
 
 My goal is to develop strong database skills by learning how to design, query, and manage relational databases. I aim to understand how databases integrate with Java applications and backend systems.
