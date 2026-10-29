@@ -92,7 +92,6 @@ SQL-Projects/
 | `SQL-Fundamentals/` | Contains SQL exercises organised by command category, including DDL, DML, DQL, DCL, and TCL. |
 | `Database-Design-Exercises/` | Contains practice exercises covering ERDs, relationships, and database normalization. |
 
-> **Note:** The structure above represents the intended organisation of the repository. Folder and file names should be updated to match the actual repository contents as the project develops.
 
 ## 🎯 Learning Goals
 
