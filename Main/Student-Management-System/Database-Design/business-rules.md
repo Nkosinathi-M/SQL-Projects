@@ -1,7 +1,7 @@
 # Student Management System — Business Rules
 
 ## 1. Student
-### BR-01: One department can have zero or many students. Each student belongs to exactly one department.
+BR-01: One department can have zero or many students. Each student belongs to exactly one department.
 
 BR-02: One student can have zero or many enrolment records over time. Each enrolment belongs to exactly one student.
 ## 2. Department
